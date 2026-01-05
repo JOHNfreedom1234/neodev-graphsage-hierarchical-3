@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from torch_geometric.data import Data
 
 # --- CONFIG ---
-JSON_PATH = "labeled_data2.json"
+JSON_PATH = "tailwind_labeled_data.json"
 OUT_DIR = "processed_fixed"
 
 # --- HELPER FUNCTIONS ---

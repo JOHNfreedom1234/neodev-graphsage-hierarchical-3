@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 # --- CONFIG ---
 MODEL_PATH = "best_model_fixed.pth"
 META_PATH = "processed_fixed/meta.pt"
-DATA_PATH = "labeled_data2.json"
+DATA_PATH = "labeled_data_augmented2.json"
 
 # --- MODEL (Matches Training) ---
 class HierarchicalGraphSAGE(torch.nn.Module):
